@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Deep Thought 2.0 — Sensor Sync</title>
+  <link rel="stylesheet" href="subject.css" />
+</head>
+<body>
+  <header>
+    <h1>🛰️ Deep Thought 2.0 — Sensor Sync</h1>
+  </header>
+
+  <section class="context">
+    <h2>🌌 Context</h2>
+    <p>
+      Deep Thought 2.0 has suffered a critical failure in its perception systems.<br />
+      Reconnect the wires of the <strong>HC-SR04</strong> correctly and calibrate it together with the light sensor (LDR).
+    </p>
+  </section>
+
+  <section class="mandatory">
+    <h2>🎯 Mandatory</h2>
+    <div class="step">
+      <h3>Step 1</h3>
+      <ul>
+        <li>Connect the wire pairs of the <strong>HC-SR04</strong> to the corresponding pins (<strong>VCC</strong>, <strong>TRIG</strong>, <strong>ECHO</strong>, <strong>GND</strong>). Each pair is labeled.</li>
+      </ul>
+    </div>
+    <div class="step">
+      <h3>Step 2</h3>
+      <ul>
+        <li>Adjust the <strong>distance sensor (HC-SR04)</strong> until it reaches the expected value.</li>
+        <li>Adjust the <strong>light sensor (LDR)</strong> until it reaches the expected value.</li>
+        <li>Keep both sensors stable at the correct level for <strong>3 continuous seconds</strong>.</li>
+      </ul>
+    </div>
+    <p class="result">
+      When the condition is met:<br />
+      ✅ The calibration display will show <strong>“OK”</strong><br />
+      🔓 The LCD display the <strong>puzzle password</strong>.
+    </p>
+  </section>
+
+  <section class="values">
+    <h2>📏 Expected Values</h2>
+    <ul>
+      <li>📍 Distance: <strong>4 levels</strong></li>
+      <li>🌗 Light: <strong>2 levels</strong></li>
+    </ul>
+  </section>
+
+  <section class="notes">
+    <h2>⚠️ Notes</h2>
+    <ul>
+      <li>Feedback is shown on the LED matrix: each level corresponds to one row of LEDs being lit.</li>
+      <li>🔊 The <strong>HC-SR04</strong> measures the distance to an object in front of it.</li>
+      <li>💡 The <strong>LDR</strong> measures light intensity: cover it with a shadow or shine light to change its value.</li>
+    </ul>
+  </section>
+
+  <section class="hint">
+    <h2>💡 Hint</h2>
+    <p>
+      “Not too far, not too close.<br />
+      Not too bright, not too dark.<br />
+      The key is balance.”
+    </p>
+  </section>
+
+  <footer>
+    <p>Built by Robotics Club — Deep Thought 2.0 Challenge</p>
+  </footer>
+</body>
+</html>
