@@ -2,6 +2,11 @@
 
 ## 📌 About the Project
 
+## 📷 Puzzle Setup
+
+![circuit](media/circuit.jpg)
+
+
 **SensorSyncPuzzle** is an Arduino-based escape room puzzle developed for the **Robotics Club of School 42**.
 
 It was created as part of a welcoming event for new Common Core students, where participants faced a series of physical and logical challenges to unlock passwords and complete the final mission.
@@ -26,6 +31,10 @@ Your mission is to restore one of its broken perception modules by synchronizing
 
 Solving this puzzle reveals one of the secret passwords required to save the ship and finish the escape room.
 
+#### Subject (robotic challenge)
+
+![subject](media/subject.jpg)
+
 
 
 ---
@@ -42,6 +51,7 @@ When both conditions are met and held steady for **3 seconds**, the system confi
 ✅ LED matrices display **“OK”**  
 🔓 LCD reveals the password
 
+[▶️ Watch the puzzle in action](media/video.MOV)
 ---
 
 ## 🧩 Hardware Used
