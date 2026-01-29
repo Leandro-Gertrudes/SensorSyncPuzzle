@@ -51,7 +51,7 @@ When both conditions are met and held steady for **3 seconds**, the system confi
 ✅ LED matrices display **“OK”**  
 🔓 LCD reveals the password
 
-![puzzle in action](media/video.MOV)
+![puzzle in action](media/demo.gif)
 ---
 
 ## 🧩 Hardware Used
